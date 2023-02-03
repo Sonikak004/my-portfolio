@@ -22,7 +22,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Protofilio] <a name="about-project"></a>
+# 📖 Protofilio <a name="about-project"></a>
 **Protofilio** everything you want to know about me!
 
 
@@ -30,6 +30,8 @@
 ### Key Features <a name="key-features"></a>
 - **used linters**
 - **mobile version**
+- **Desktop version**
+- - **Responsiveness**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>

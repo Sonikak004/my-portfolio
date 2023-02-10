@@ -244,17 +244,14 @@ body {
 }
 
 @keyframes modalopen {
-
- from
- {
+  from {
     opacity: 0;
   }
 
- to 
- {
+  to {
     opacity: 1;
   }
-} 
+}
 
 .pop-window-desk {
   display: none;

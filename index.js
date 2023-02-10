@@ -115,8 +115,8 @@ const popCards = [
 
 const popupVar = document.querySelector('.recent-div');
 
-for ( let i = 1; i <= 1; i++){
-const popCard = `
+for (let i = 1; i <= 1; i ++) {
+  const popCard = `
 
   <div id="my-modal" class="modal">
   <div class="modal-content">
@@ -162,9 +162,9 @@ const popCard = `
     </div>
   </div>
 </div>
-` ;
+`;
 
-popupVar.innerHTML += popCard;
+  popupVar.innerHTML += popCard;
 }
 
 const modal = document.querySelector('#my-modal');
@@ -193,14 +193,12 @@ modalBtn.addEventListener('click', openModal);
 closeBtn.addEventListener('click', closeModal);
 window.addEventListener('click', outsideClick);
 
-
-
 // pop-end
 
 const projectSection1 = document.querySelector('#project-section');
 
-for ( let i=1; i <= 1; i++){
-const card = `<img
+for (let i = 1; i <= 1; i ++) {
+  const card = `<img
   class="pro-img1"
   src= ${proCards[i].image}
   alt="project card one"
@@ -224,7 +222,7 @@ const card = `<img
   </li>
   </ul>
   <button id="see-pro-pop" class="pop-up but1 butext but" type="button"> ${proCards[i].button[2]} </button>
-  </div>` ;
+  </div>`;
 
   projectSection1.innerHTML += card;
 }
@@ -233,10 +231,9 @@ const card = `<img
 
 const projectSection2 = document.querySelector('#project-section');
 
-for ( let i = 1; i <= 1; i++){
+for ( let i = 1; i <= 1; i ++){
 
-const card = 
-  `<img
+  const card = `<img
   class="pro-img2"
   src= ${proCards[i].image}
   alt="project card two"
@@ -259,7 +256,7 @@ const card =
   </li>
   </ul>
   <button id="see-pro-pop2" class="pop-up but2 butext but" type="button"> ${proCards[i].button[2]} </button>
-  </div>` ;
+  </div>`;
 
   projectSection2.innerHTML += card;
 }
@@ -268,10 +265,9 @@ const card =
 
 const projectSection3 = document.querySelector('#project-section');
 
-for ( let i = 2; i <= 2; i++){
+for (let i = 2; i <= 2; i ++) {
 
-const card = 
-  `<img
+  const card = `<img
   class="pro-img3"
   src= ${proCards[i].image}
   alt="project card three"
@@ -296,16 +292,16 @@ const card =
   <button id="see-pro-pop3" class="pop-up but3 butext but" type="button"> ${proCards[i].button[2]} </button>
   </div>` ;
 
-  projectSection3.innerHTML = projectSection3.innerHTML + card;
+  projectSection3.innerHTML += card;
 }
 
 // fourth card section
 
 const projectSection4 = document.querySelector('#project-section');
 
-for ( let i = 3; i <= 3; i++){
+for (let i = 3; i <= 3; i ++) {
 
-const card = 
+  const card = 
   `<img
   class="pro-img4"
   src= ${proCards[i].image}
@@ -336,10 +332,9 @@ const card =
 
 const projectSection5 = document.querySelector('#project-section');
 
-for ( let i = 4; i <= 4; i++){
+for (let i = 4; i <= 4; i ++) {
 
-const card = 
-  `<img
+  const card = `<img
   class="pro-img5"
   src= ${proCards[i].image}
   alt="project card five"
@@ -362,7 +357,7 @@ const card =
   </li>
   </ul>
   <button id="see-pro-pop5" class="pop-up but5 butext but" type="button"> ${proCards[i].button[2]} </button>
-  </div>` ;
+  </div>`;
 
   projectSection5.innerHTML += card;
 }
@@ -371,10 +366,9 @@ const card =
 
 const projectSection6 = document.querySelector('#project-section');
 
-for ( let i = 5; i <= 5; i++){
+for (let i = 5; i <= 5; i ++){
 
-const card =
-   `<img
+  const card =`<img
   class="pro-img6"
   src= ${proCards[i].image}
   alt="project card six"
@@ -397,14 +391,14 @@ const card =
   </li>
   </ul>
   <button id="see-pro-pop6" class="pop-up but6 butext but" type="button"> ${proCards[i].button[2]} </button>
-  </div>` ;
+  </div>`;
 
   projectSection6.innerHTML += card;
 }
 
-/////// pop up for cards 1
+  /////// pop up for cards 1
 
-const modalPop = document.querySelector('#my-modal1');
+
 const popUpBtn = document.querySelector('#see-pro-pop');
 const closePop = document.querySelector('#popclose');
 
@@ -420,7 +414,7 @@ function closepopmodal() {
 
 // Close If Outside Click
 function outsideClick1(e) {
-  if (e.target == modal) {
+  if (e.target === modal) {
     modal.style.display = 'none';
   }
 }
@@ -428,7 +422,7 @@ function outsideClick1(e) {
 // Events
 popUpBtn.addEventListener('click', openModal1);
 closePop.addEventListener('click', closepopmodal);
-window.addEventListener('click', outsideClick);
+window.addEventListener('click', outsideClick1);
 
 
 
@@ -450,15 +444,15 @@ function closepopmodal2() {
 
 // Close If Outside Click
 function outsideClick2(e) {
-  if (e.target == modal) {
+  if (e.target === modal) {
     modal.style.display = 'none';
   }
 }
 
 // Events
-popUpBtn2.addEventListener('click', openModal);
-closePop2.addEventListener('click', closepopmodal);
-window.addEventListener('click', outsideClick);
+popUpBtn2.addEventListener('click', openModal2);
+closePop2.addEventListener('click', closepopmodal2);
+window.addEventListener('click', outsideClick2);
 
 //////pop up for cards 3
 
@@ -478,15 +472,15 @@ function closepopmodal3() {
 
 // Close If Outside Click
 function outsideClick3(e) {
-  if (e.target == modal) {
+  if (e.target === modal) {
     modal.style.display = 'none';
   }
 }
 
 // Events
-popUpBtn3.addEventListener('click', openModal);
-closePop3.addEventListener('click', closepopmodal);
-window.addEventListener('click', outsideClick);
+popUpBtn3.addEventListener('click', openModal3);
+closePop3.addEventListener('click', closepopmodal3);
+window.addEventListener('click', outsideClick3);
 
 /////// pop up for cards 4
 
@@ -506,16 +500,15 @@ function closepopmodal4() {
 
 // Close If Outside Click
 function outsideClick4(e) {
-  if (e.target == modal) {
+  if (e.target === modal) {
     modal.style.display = 'none';
   }
 }
 
 // Events
-popUpBtn4.addEventListener('click', openModal);
-closePop4.addEventListener('click', closepopmodal);
-window.addEventListener('click', outsideClick);
-
+popUpBtn4.addEventListener('click', openModal4);
+closePop4.addEventListener('click', closepopmodal4);
+window.addEventListener('click', outsideClick4);
 
 /////// pop up for cards 5
 
@@ -535,16 +528,16 @@ function closepopmodal5() {
 
 // Close If Outside Click
 function outsideClick5(e) {
-  if (e.target == modal) {
+  if (e.target === modal) {
     modal.style.display = 'none';
   }
 }
 
 
 // Events
-popUpBtn5.addEventListener('click', openModal);
-closePop5.addEventListener('click', closepopmodal);
-window.addEventListener('click', outsideClick);
+popUpBtn5.addEventListener('click', openModal5);
+closePop5.addEventListener('click', closepopmodal5);
+window.addEventListener('click', outsideClick5);
 
 
 ////////pop up for cards 6
@@ -565,12 +558,12 @@ function closepopmodal6() {
 
 // Close If Outside Click
 function outsideClick6(e) {
-  if (e.target == modal) {
+  if (e.target === modal) {
     modal.style.display = 'none';
   }
 }  
 
 // Events
-popUpBtn6.addEventListener('click', openModal);
-closePop6.addEventListener('click', closepopmodal);
-window.addEventListener('click', outsideClick);
+popUpBtn6.addEventListener('click', openModal6);
+closePop6.addEventListener('click', closepopmodal6);
+window.addEventListener('click', outsideClick6);

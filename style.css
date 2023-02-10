@@ -215,6 +215,7 @@ body {
 
 .modal-footer {
   height: 70px;
+
   --modal-duration: 1s;
   --modal-color: #fff;
 
@@ -243,10 +244,13 @@ body {
 }
 
 @keyframes modalopen {
-  from {
+
+  from
+   {
     opacity: 0;
   }
-  to {
+  to 
+  {
     opacity: 1;
   }
 } 
@@ -254,7 +258,6 @@ body {
 .pop-window-desk {
   display: none;
 }
-
 
 /* top heading for main page */
 
@@ -731,7 +734,7 @@ button {
 }
 
 .ptext3 {
-    position: relative;
+  position: relative;
   top: -90px;
   left: 15px;
   width: 295px;
@@ -813,7 +816,6 @@ button {
   line-height: 24px;
   color: #fffbfb;
 }
-
 
 .ptext-3 {
   position: relative;
@@ -921,11 +923,11 @@ button {
 
 .butext {
   padding-left: 110px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
-  color: #FFFFFF;
+  color: #fff;
   line-height: 24px;
 }
 
@@ -978,7 +980,6 @@ button {
 .butext:disabled {
   color: #1c1a19;
 }
-
 
 .but2 {
   display: flex;
@@ -1543,7 +1544,7 @@ footer {
   .profession {
     padding-left: 88px;
   }
-  
+
   .modal-head-text {
     display: none;
   }
@@ -1552,12 +1553,12 @@ footer {
     display: flex;
     width: 746px;
     height: 0;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
-    color: #172B4D;
+    color: #172b4d;
     margin-bottom: -18px;
   }
 
@@ -1929,7 +1930,7 @@ footer {
     background-image: url(./images/card3.png);
   }
 
-  .pro-img4 { 
+  .pro-img4 {
     position: relative;
     top: -594px;
     width: 334px;
@@ -1939,8 +1940,7 @@ footer {
   .pro-img5 {
     display: none;
   }
-  
-  
+
   .pro-img5-desk {
     position: relative;
     top: -572px;
@@ -1964,16 +1964,16 @@ footer {
     width: 317px;
     background-size: 100%;
     background-image: url(./images/card3.png);
-}
+  }
 
  .but1 {
-   padding-left: 117px;
-   top: 557px;
-   left: 18px;
-   width: 333px;
-   height: 53px;
-}
-  
+    padding-left: 117px;
+    top: 557px;
+    left: 18px;
+    width: 333px;
+    height: 53px;
+  }
+
   /* pro images */
 
   #pro-img-1-desk:hover {

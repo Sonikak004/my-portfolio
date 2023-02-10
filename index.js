@@ -473,9 +473,11 @@ window.addEventListener('click', outsideClick3);
 
 // pop up for cards 4
 
+const popUpBtn4 = document.querySelector('#see-pro-pop4');
 const closePop4 = document.querySelector('#popclose');
 
 // Open
+
 function openModal4() {
   modal.style.display = 'block';
 }
@@ -493,7 +495,7 @@ function outsideClick4(e) {
 }
 
 // Events
-
+popUpBtn4.addEventListener('click', openModal4);
 closePop4.addEventListener('click', closepopmodal4);
 window.addEventListener('click', outsideClick4);
 

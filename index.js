@@ -405,12 +405,12 @@ const popUpBtn = document.querySelector('#see-pro-pop');
 const closePop = document.querySelector('#popclose');
 
 // Events
-popUpBtn.addEventListener('click', openModal);
+popUpBtn.addEventListener('click', openModal1);
 closePop.addEventListener('click', closepopmodal);
 window.addEventListener('click', outsideClick);
 
 // Open
-function openModal() {
+function openModal1() {
   modal.style.display = 'block';
 }
 

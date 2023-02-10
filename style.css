@@ -39,6 +39,18 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+#modal1 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .modal-content {
   margin: 6%;
   width: 73%;
@@ -113,6 +125,7 @@ body {
 }
 
 .pop-window {
+  width: 100%;
   top: 50px;
   display: flex;
   position: relative;
@@ -132,8 +145,7 @@ body {
 .pop-btn {
   display: flex;
   justify-content: space-between;
-  width: 277px;
-  left: 23px;
+  width: 100%;
   top: -9px;
   position: relative;
 }
@@ -1684,6 +1696,10 @@ footer {
     align-items: flex-start;
   }
 
+  #headingpopup {
+    display: none;
+  }
+
   .page2-para {
     position: relative;
     margin-left: 835px;
@@ -1737,6 +1753,7 @@ footer {
   }
 
   button {
+    margin: 6px;
     margin-top: 15px;
   }
 
@@ -1747,6 +1764,8 @@ footer {
 
   .but2 {
     width: 320px;
+    left: -6px;
+    width: 320px;
   }
 
   .pro3 {
@@ -1755,7 +1774,8 @@ footer {
   }
 
   .but3 {
-    width: 317px;
+    width: 315px;
+    left: -5px;
   }
 
   .pro4 {
@@ -1766,7 +1786,8 @@ footer {
 
   .but4 {
     height: 51px;
-    width: 337px;
+    width: 333px;
+    left: -5px;
     padding-left: 118px;
   }
 
@@ -1776,7 +1797,10 @@ footer {
   }
 
   .but5 {
-    width: 325px;
+    top: 20px;
+    left: -6px;
+    width: 324px;
+    height: 52px;
   }
 
   .pro6 {
@@ -1786,6 +1810,8 @@ footer {
 
   .but6 {
     width: 318px;
+    left: -6px;
+    height: 55px;
   }
 
   .pro-text {
@@ -1852,7 +1878,11 @@ footer {
   }
 
   .pop-btn {
-    left: 688px;
+    width: 1069px;
+    position: relative;
+    left: -88px;
+    display: flex;
+    justify-content: flex-end;
   }
 
   .pop-card3 {
@@ -1880,7 +1910,7 @@ footer {
     color: #344563;
     position: relative;
     left: 681px;
-    width: 350px;
+    width: 40%;
     top: -451px;
   }
 
@@ -1967,8 +1997,8 @@ footer {
   .but1 {
     padding-left: 117px;
     top: 557px;
-    left: 18px;
-    width: 333px;
+    left: 14px;
+    width: 331px;
     height: 53px;
   }
 

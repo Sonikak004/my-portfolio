@@ -109,6 +109,15 @@ const popCards = [
     technologies: ['html', 'Bootstrap', 'Ruby on Rails'],
     link: '#',
   },
+  {
+    id: 2,
+    heading: 'Profesional Art Printing Data',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    image: './images/probackground.png',
+    button: ['see live', 'see source', 'see project'],
+    technologies: ['html', 'Bootstrap', 'Ruby on Rails'],
+    link: '#',
+  },
 ];
 
 // popup
@@ -122,7 +131,7 @@ for (let i = 1; i <= 1; i += 1) {
   <div class="modal-content">
     <div class="modal-header">
     <h3 class="modal-head-text">${proCards[5].name}</h3>
-    <h3 class="modal-head-text-desk">${popCards[0].name}</h3>
+    <h3 id="heading-popup" class="modal-head-text-desk">${popCards[0].name}</h3>
       <span>
       <img src=images/vectorx.png alt="project image" class="close" id="popclose"/>
       </span>

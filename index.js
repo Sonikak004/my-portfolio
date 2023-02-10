@@ -115,7 +115,7 @@ const popCards = [
 
 const popupVar = document.querySelector('.recent-div');
 
-for (let i = 1; i <= 1; i ++) {
+for (let i = 1; i <= 1; i += 1) {
   const popCard = `
 
   <div id="my-modal" class="modal">
@@ -231,7 +231,7 @@ for (let i = 1; i <= 1; i ++) {
 
 const projectSection2 = document.querySelector('#project-section');
 
-for ( let i = 1; i <= 1; i ++){
+for ( let i = 1; i <= 1; i += 1){
 
   const card = `<img
   class="pro-img2"
@@ -265,7 +265,7 @@ for ( let i = 1; i <= 1; i ++){
 
 const projectSection3 = document.querySelector('#project-section');
 
-for (let i = 2; i <= 2; i ++) {
+for (let i = 2; i <= 2; i += 1) {
 
   const card = `<img
   class="pro-img3"
@@ -299,7 +299,7 @@ for (let i = 2; i <= 2; i ++) {
 
 const projectSection4 = document.querySelector('#project-section');
 
-for (let i = 3; i <= 3; i ++) {
+for (let i = 3; i <= 3; i += 1) {
 
   const card = 
   `<img
@@ -332,7 +332,7 @@ for (let i = 3; i <= 3; i ++) {
 
 const projectSection5 = document.querySelector('#project-section');
 
-for (let i = 4; i <= 4; i ++) {
+for (let i = 4; i <= 4; i += 1) {
 
   const card = `<img
   class="pro-img5"
@@ -366,7 +366,7 @@ for (let i = 4; i <= 4; i ++) {
 
 const projectSection6 = document.querySelector('#project-section');
 
-for (let i = 5; i <= 5; i ++){
+for (let i = 5; i <= 5; i += 1){
 
   const card =`<img
   class="pro-img6"
@@ -533,12 +533,10 @@ function outsideClick5(e) {
   }
 }
 
-
 // Events
 popUpBtn5.addEventListener('click', openModal5);
 closePop5.addEventListener('click', closepopmodal5);
 window.addEventListener('click', outsideClick5);
-
 
 ////////pop up for cards 6
 

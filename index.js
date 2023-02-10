@@ -22,7 +22,7 @@ document.querySelectorAll('.menuItems').forEach((item) => {
 const proCards = [
   {
     id: 0,
-    name: 'Profesional Art Printing Data',
+    heading: 'Profesional Art Printing Data',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
     image: './images/probackground.png',
     button: ['see live', 'see source', 'see project'],
@@ -61,7 +61,7 @@ const proCards = [
   },
   {
     id: 4,
-    name: 'Multi-post stories',
+    heading: 'Multi-post stories',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
     image: './images/probackground.png',
     button: ['see live', 'see source', 'see project'],
@@ -71,7 +71,7 @@ const proCards = [
   },
   {
     id: 5,
-    name: 'Multi-post stories',
+    heading: 'Multi-post stories',
     image: './images/probackground.png',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
     button: ['see live', 'see source', 'see project'],
@@ -79,7 +79,7 @@ const proCards = [
   },
   {
     id: 6,
-    name: 'Multi-post stories',
+    heading: 'Multi-post stories',
     image: './images/probackground.png',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
     button: ['see live', 'see source', 'see project'],
@@ -124,27 +124,26 @@ const popCards = [
 
 const popupVar = document.querySelector('.recent-div');
 
-for (let i = 1; i <= 1; i += 1) {
+for (let i = 0; i <= (document.querySelectorAll('.click')).length; i += 1) {
   const popCard = `
-
   <div id="my-modal" class="modal">
   <div class="modal-content">
     <div class="modal-header">
-    <h3 class="modal-head-text">${proCards[5].name}</h3>
-    <h3 id="heading-popup" class="modal-head-text-desk">${popCards[0].name}</h3>
+    <h3 class="modal-head-text">${proCards[i].heading}</h3>
+    <h3 id="heading-popup" class="modal-head-text-desk">${proCards[i].heading}</h3>
       <span>
       <img src=images/vectorx.png alt="project image" class="close" id="popclose"/>
       </span>
     </div>
     <ul class="tech-button1 pop-tech-but">
     <li class="pop-card1">
-      <nav class="icon-1">${proCards[i].technologies[0]}</nav>
+      <nav class="icon-1">${popCards[i].technologies[0]}</nav>
     </li>
     <li class="pop-card2">
-    <nav class="icon-1">${proCards[i].technologies[1]}</nav>
+    <nav class="icon-1">${popCards[i].technologies[1]}</nav>
     </li>
     <li class="pop-card3">
-    <nav class="icon-1">${proCards[i].technologies[2]}</nav>
+    <nav class="icon-1">${popCards[i].technologies[2]}</nav>
     </li>
     <li class="pop-card4">
     <nav class="icon-1">${popCards[i].technologies[2]}</nav>
@@ -216,7 +215,7 @@ for (let i = 1; i <= 1; i += 1) {
   <div/>
 </div>
 <div class="pro1">
-<h2 class="ptext1">${proCards[0].name}</h2>
+<h2 class="ptext1">${proCards[0].heading}</h2>
 <p class="ptext-1"> ${proCards[i].description}
 </p>
 <ul class="tech-button1">
@@ -230,7 +229,7 @@ for (let i = 1; i <= 1; i += 1) {
   <nav class="icon-1">${proCards[i].technologies[2]}</nav>
   </li>
   </ul>
-  <button id="see-pro-pop" class="pop-up but1 butext but" type="button"> ${proCards[i].button[2]} </button>
+  <button id="see-pro-pop" class="pop-up but1 butext but click" type="button"> ${proCards[i].button[2]} </button>
   </div>`;
 
   projectSection1.innerHTML += card;
@@ -249,7 +248,7 @@ for (let i = 1; i <= 1; i += 1) {
 <div class="pro-img2-desk">
   <div/>
 <div class="pro2">
-<h2 class="ptext2">${proCards[0].name}</h2>
+<h2 class="ptext2">${proCards[0].heading}</h2>
 <p class="ptext-2"> ${proCards[i].description}
 </p>
 <ul class="tech-button2">
@@ -263,7 +262,7 @@ for (let i = 1; i <= 1; i += 1) {
   <nav class="icon-2">${proCards[i].technologies[2]}</nav>
   </li>
   </ul>
-  <button id="see-pro-pop2" class="pop-up but2 butext but" type="button"> ${proCards[i].button[2]} </button>
+  <button id="see-pro-pop2" class="pop-up but2 butext click but" type="button"> ${proCards[i].button[2]} </button>
   </div>`;
 
   projectSection2.innerHTML += card;
@@ -282,7 +281,7 @@ for (let i = 2; i <= 2; i += 1) {
 <div class="pro-img3-desk">
   <div/>
 <div class="pro3">
-<h2 class="ptext3">${proCards[0].name}</h2>
+<h2 class="ptext3">${proCards[0].heading}</h2>
 <p class="ptext-3"> ${proCards[i].description}
 </p>
 <ul class="tech-button3">
@@ -296,7 +295,7 @@ for (let i = 2; i <= 2; i += 1) {
   <nav class="icon-3">${proCards[i].technologies[2]}</nav>
   </li>
   </ul>
-  <button id="see-pro-pop3" class="pop-up but3 butext but" type="button"> ${proCards[i].button[2]} </button>
+  <button id="see-pro-pop3" class="pop-up but3 butext click but" type="button"> ${proCards[i].button[2]} </button>
   </div>`;
 
   projectSection3.innerHTML += card;
@@ -313,7 +312,7 @@ for (let i = 3; i <= 3; i += 1) {
   alt="project card four"
 />
 <div class="pro4">
-<h2 class="ptext4">${proCards[0].name}</h2>
+<h2 class="ptext4">${proCards[0].heading}</h2>
 <p class="ptext-4"> ${proCards[i].description}
 </p>
 <ul class="tech-button4">
@@ -327,7 +326,7 @@ for (let i = 3; i <= 3; i += 1) {
   <nav class="icon-4">${proCards[i].technologies[2]}</nav>
   </li>
   </ul>
-  <button id="see-pro-pop4" class="pop-up but4 butext but" type="button"> ${proCards[i].button[2]} </button>
+  <button id="see-pro-pop4" class="pop-up but4 butext click but" type="button"> ${proCards[i].button[2]} </button>
   </div>`;
 
   projectSection4.innerHTML += card;
@@ -346,7 +345,7 @@ for (let i = 4; i <= 4; i += 1) {
 <div class="pro-img5-desk">
   <div/>
 <div class="pro5">
-<h2 class="ptext5">${proCards[0].name}</h2>
+<h2 class="ptext5">${proCards[0].heading}</h2>
 <p class="ptext-5"> ${proCards[i].description}
 </p>
 <ul class="tech-button5">
@@ -360,7 +359,7 @@ for (let i = 4; i <= 4; i += 1) {
   <nav class="icon-5">${proCards[i].technologies[2]}</nav>
   </li>
   </ul>
-  <button id="see-pro-pop5" class="pop-up but5 butext but" type="button"> ${proCards[i].button[2]} </button>
+  <button id="see-pro-pop5" class="pop-up but5 butext click but" type="button"> ${proCards[i].button[2]} </button>
   </div>`;
 
   projectSection5.innerHTML += card;
@@ -379,7 +378,7 @@ for (let i = 5; i <= 5; i += 1) {
 <div class="pro-img6-desk">
   <div/>
 <div class="pro6">
-<h2 class="ptext6">${proCards[0].name}</h2>
+<h2 class="ptext6">${proCards[0].heading}</h2>
 <p class="ptext-6"> ${proCards[i].description}
 </p>
 <ul class="tech-button6">
@@ -393,7 +392,7 @@ for (let i = 5; i <= 5; i += 1) {
   <nav class="icon-6">${proCards[i].technologies[2]}</nav>
   </li>
   </ul>
-  <button id="see-pro-pop6" class="pop-up but6 butext but" type="button"> ${proCards[i].button[2]} </button>
+  <button id="see-pro-pop6" class="pop-up but6 butext click but" type="button"> ${proCards[i].button[2]} </button>
   </div>`;
 
   projectSection6.innerHTML += card;

@@ -443,12 +443,12 @@ function openModal2() {
 }
 
 // Close
-function closepopmodal() {
+function closepopmodal2() {
   modal.style.display = 'none';
 }
 
 // Close If Outside Click
-function outsideClick(e) {
+function outsideClick2(e) {
   if (e.target == modal) {
     modal.style.display = 'none';
   }
@@ -466,17 +466,17 @@ closePop3.addEventListener('click', closepopmodal);
 window.addEventListener('click', outsideClick);
 
 // Open
-function openModal() {
+function openModal3() {
   modal.style.display = 'block';
 }
 
 // Close
-function closepopmodal() {
+function closepopmodal3() {
   modal.style.display = 'none';
 }
 
 // Close If Outside Click
-function outsideClick(e) {
+function outsideClick3(e) {
   if (e.target == modal) {
     modal.style.display = 'none';
   }
@@ -494,17 +494,17 @@ closePop4.addEventListener('click', closepopmodal);
 window.addEventListener('click', outsideClick);
 
 // Open
-function openModal() {
+function openModal4() {
   modal.style.display = 'block';
 }
 
 // Close
-function closepopmodal() {
+function closepopmodal4() {
   modal.style.display = 'none';
 }
 
 // Close If Outside Click
-function outsideClick(e) {
+function outsideClick4(e) {
   if (e.target == modal) {
     modal.style.display = 'none';
   }
@@ -522,17 +522,17 @@ closePop5.addEventListener('click', closepopmodal);
 window.addEventListener('click', outsideClick);
 
 // Open
-function openModal() {
+function openModal5() {
   modal.style.display = 'block';
 }
 
 // Close
-function closepopmodal() {
+function closepopmodal5() {
   modal.style.display = 'none';
 }
 
 // Close If Outside Click
-function outsideClick(e) {
+function outsideClick5(e) {
   if (e.target == modal) {
     modal.style.display = 'none';
   }
@@ -550,18 +550,18 @@ closePop6.addEventListener('click', closepopmodal);
 window.addEventListener('click', outsideClick);
 
 // Open
-function openModal() {
+function openModal6() {
   modal.style.display = 'block';
 }
 
 // Close
-function closepopmodal() {
+function closepopmodal6() {
   modal.style.display = 'none';
 }
 
 // Close If Outside Click
-function outsideClick(e) {
+function outsideClick6(e) {
   if (e.target == modal) {
     modal.style.display = 'none';
   }
-}
+}  

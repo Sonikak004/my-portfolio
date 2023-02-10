@@ -17,7 +17,6 @@ document.querySelectorAll('.menuItems').forEach((item) => {
   item.addEventListener('click', close);
 });
 
-
 // pop-up and project cards
 
 const proCards = [
@@ -116,11 +115,10 @@ const popCards = [
 
 const popupVar = document.querySelector('.recent-div');
 
-for(let i=1; i <= 1; i++){
-
+for ( let i = 1; i <= 1; i++){
 const popCard = `
 
-<div id="my-modal" class="modal">
+  <div id="my-modal" class="modal">
   <div class="modal-content">
     <div class="modal-header">
     <h3 class="modal-head-text">${proCards[5].name}</h3>
@@ -166,17 +164,12 @@ const popCard = `
 </div>
 ` ;
 
-  popupVar.innerHTML = popupVar.innerHTML + popCard;
+popupVar.innerHTML += popCard;
 }
 
 const modal = document.querySelector('#my-modal');
 const modalBtn = document.querySelector('#project-button');
 const closeBtn = document.querySelector('#popclose');
-
-// Events
-modalBtn.addEventListener('click', openModal);
-closeBtn.addEventListener('click', closeModal);
-window.addEventListener('click', outsideClick);
 
 // Open
 function openModal() {
@@ -190,17 +183,23 @@ function closeModal() {
 
 // Close If Outside Click
 function outsideClick(e) {
-  if (e.target == modal) {
+  if (e.target === modal) {
     modal.style.display = 'none';
   }
 }
+
+// Events
+modalBtn.addEventListener('click', openModal);
+closeBtn.addEventListener('click', closeModal);
+window.addEventListener('click', outsideClick);
+
+
 
 // pop-end
 
 const projectSection1 = document.querySelector('#project-section');
 
-for(let i=1; i <= 1; i++){
-
+for ( let i=1; i <= 1; i++){
 const card = `<img
   class="pro-img1"
   src= ${proCards[i].image}
@@ -227,16 +226,17 @@ const card = `<img
   <button id="see-pro-pop" class="pop-up but1 butext but" type="button"> ${proCards[i].button[2]} </button>
   </div>` ;
 
-  projectSection1.innerHTML = projectSection1.innerHTML + card;
+  projectSection1.innerHTML += card;
 }
 
-// second card section 
+// second card section
 
 const projectSection2 = document.querySelector('#project-section');
 
-for(let i=1; i <= 1; i++){
+for ( let i = 1; i <= 1; i++){
 
-const card = `<img
+const card = 
+  `<img
   class="pro-img2"
   src= ${proCards[i].image}
   alt="project card two"
@@ -261,16 +261,17 @@ const card = `<img
   <button id="see-pro-pop2" class="pop-up but2 butext but" type="button"> ${proCards[i].button[2]} </button>
   </div>` ;
 
-  projectSection2.innerHTML = projectSection2.innerHTML + card;
+  projectSection2.innerHTML += card;
 }
 
 // third card section
 
 const projectSection3 = document.querySelector('#project-section');
 
-for(let i=2; i <= 2; i++){
+for ( let i = 2; i <= 2; i++){
 
-const card = `<img
+const card = 
+  `<img
   class="pro-img3"
   src= ${proCards[i].image}
   alt="project card three"
@@ -302,9 +303,10 @@ const card = `<img
 
 const projectSection4 = document.querySelector('#project-section');
 
-for(let i=3; i <= 3; i++){
+for ( let i = 3; i <= 3; i++){
 
-const card = `<img
+const card = 
+  `<img
   class="pro-img4"
   src= ${proCards[i].image}
   alt="project card four"
@@ -327,16 +329,17 @@ const card = `<img
   <button id="see-pro-pop4" class="pop-up but4 butext but" type="button"> ${proCards[i].button[2]} </button>
   </div>` ;
 
-  projectSection4.innerHTML = projectSection4.innerHTML + card;
+  projectSection4.innerHTML += card;
 }
 
 // fifth card section
 
 const projectSection5 = document.querySelector('#project-section');
 
-for(let i=4; i <= 4; i++){
+for ( let i = 4; i <= 4; i++){
 
-const card = `<img
+const card = 
+  `<img
   class="pro-img5"
   src= ${proCards[i].image}
   alt="project card five"
@@ -361,16 +364,17 @@ const card = `<img
   <button id="see-pro-pop5" class="pop-up but5 butext but" type="button"> ${proCards[i].button[2]} </button>
   </div>` ;
 
-  projectSection5.innerHTML = projectSection5.innerHTML + card;
+  projectSection5.innerHTML += card;
 }
 
 // sixth card section
 
 const projectSection6 = document.querySelector('#project-section');
 
-for(let i=5; i <= 5; i++){
+for ( let i = 5; i <= 5; i++){
 
-const card = `<img
+const card =
+   `<img
   class="pro-img6"
   src= ${proCards[i].image}
   alt="project card six"
@@ -395,7 +399,7 @@ const card = `<img
   <button id="see-pro-pop6" class="pop-up but6 butext but" type="button"> ${proCards[i].button[2]} </button>
   </div>` ;
 
-  projectSection6.innerHTML = projectSection6.innerHTML + card;
+  projectSection6.innerHTML += card;
 }
 
 /////// pop up for cards 1
@@ -403,11 +407,6 @@ const card = `<img
 const modalPop = document.querySelector('#my-modal1');
 const popUpBtn = document.querySelector('#see-pro-pop');
 const closePop = document.querySelector('#popclose');
-
-// Events
-popUpBtn.addEventListener('click', openModal1);
-closePop.addEventListener('click', closepopmodal);
-window.addEventListener('click', outsideClick);
 
 // Open
 function openModal1() {
@@ -426,16 +425,18 @@ function outsideClick1(e) {
   }
 }
 
+// Events
+popUpBtn.addEventListener('click', openModal1);
+closePop.addEventListener('click', closepopmodal);
+window.addEventListener('click', outsideClick);
+
+
+
 /////// pop up for cards 2
 
 const modalPop2 = document.querySelector('#my-modal1');
 const popUpBtn2 = document.querySelector('#see-pro-pop2');
 const closePop2 = document.querySelector('#popclose');
-
-// Events
-popUpBtn2.addEventListener('click', openModal);
-closePop2.addEventListener('click', closepopmodal);
-window.addEventListener('click', outsideClick);
 
 // Open
 function openModal2() {
@@ -454,16 +455,16 @@ function outsideClick2(e) {
   }
 }
 
+// Events
+popUpBtn2.addEventListener('click', openModal);
+closePop2.addEventListener('click', closepopmodal);
+window.addEventListener('click', outsideClick);
+
 //////pop up for cards 3
 
 const modalPop3 = document.querySelector('#my-modal1');
 const popUpBtn3 = document.querySelector('#see-pro-pop3');
 const closePop3 = document.querySelector('#popclose');
-
-// Events
-popUpBtn3.addEventListener('click', openModal);
-closePop3.addEventListener('click', closepopmodal);
-window.addEventListener('click', outsideClick);
 
 // Open
 function openModal3() {
@@ -482,16 +483,16 @@ function outsideClick3(e) {
   }
 }
 
+// Events
+popUpBtn3.addEventListener('click', openModal);
+closePop3.addEventListener('click', closepopmodal);
+window.addEventListener('click', outsideClick);
+
 /////// pop up for cards 4
 
 const modalPop4 = document.querySelector('#my-modal1');
 const popUpBtn4 = document.querySelector('#see-pro-pop4');
 const closePop4 = document.querySelector('#popclose');
-
-// Events
-popUpBtn4.addEventListener('click', openModal);
-closePop4.addEventListener('click', closepopmodal);
-window.addEventListener('click', outsideClick);
 
 // Open
 function openModal4() {
@@ -510,16 +511,17 @@ function outsideClick4(e) {
   }
 }
 
+// Events
+popUpBtn4.addEventListener('click', openModal);
+closePop4.addEventListener('click', closepopmodal);
+window.addEventListener('click', outsideClick);
+
+
 /////// pop up for cards 5
 
 const modalPop5 = document.querySelector('#my-modal1');
 const popUpBtn5 = document.querySelector('#see-pro-pop5');
 const closePop5 = document.querySelector('#popclose');
-
-// Events
-popUpBtn5.addEventListener('click', openModal);
-closePop5.addEventListener('click', closepopmodal);
-window.addEventListener('click', outsideClick);
 
 // Open
 function openModal5() {
@@ -538,16 +540,18 @@ function outsideClick5(e) {
   }
 }
 
+
+// Events
+popUpBtn5.addEventListener('click', openModal);
+closePop5.addEventListener('click', closepopmodal);
+window.addEventListener('click', outsideClick);
+
+
 ////////pop up for cards 6
 
 const modalPop6 = document.querySelector('#my-modal1');
 const popUpBtn6 = document.querySelector('#see-pro-pop6');
 const closePop6 = document.querySelector('#popclose');
-
-// Events
-popUpBtn6.addEventListener('click', openModal);
-closePop6.addEventListener('click', closepopmodal);
-window.addEventListener('click', outsideClick);
 
 // Open
 function openModal6() {
@@ -565,3 +569,8 @@ function outsideClick6(e) {
     modal.style.display = 'none';
   }
 }  
+
+// Events
+popUpBtn6.addEventListener('click', openModal);
+closePop6.addEventListener('click', closepopmodal);
+window.addEventListener('click', outsideClick);

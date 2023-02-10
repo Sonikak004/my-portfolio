@@ -124,7 +124,7 @@ for (let i = 1; i <= 1; i += 1) {
     <h3 class="modal-head-text">${proCards[5].name}</h3>
     <h3 class="modal-head-text-desk">${popCards[0].name}</h3>
       <span>
-      <img src=images/vectorx.png alt="project image" class="close" id="popclose"/> 
+      <img src=images/vectorx.png alt="project image" class="close" id="popclose"/>
       </span>
     </div>
     <ul class="tech-button1 pop-tech-but">
@@ -142,8 +142,8 @@ for (let i = 1; i <= 1; i += 1) {
     </li>
     </ul>
     <div class="modal-body">
-    <img src=images/popup-img.png alt="project image" class="pop-window"/>  
-    <img src=images/popup-desktop-img.png alt="project image" class="pop-window-desk"/> 
+    <img src=images/popup-img.png alt="project image" class="pop-window"/>
+    <img src=images/popup-desktop-img.png alt="project image" class="pop-window-desk"/>
     <p class="pop-text"> ${popCards[0].description}
     <p class="pop-text-desk"> ${popCards[1].description}
     </div>
@@ -419,7 +419,6 @@ window.addEventListener('click', outsideClick1);
 
 // pop up for cards 2
 
-const modalPop2 = document.querySelector('#my-modal1');
 const popUpBtn2 = document.querySelector('#see-pro-pop2');
 const closePop2 = document.querySelector('#popclose');
 
@@ -473,7 +472,6 @@ closePop3.addEventListener('click', closepopmodal3);
 window.addEventListener('click', outsideClick3);
 
 // pop up for cards 4
-
 
 const closePop4 = document.querySelector('#popclose');
 
@@ -546,7 +544,7 @@ function outsideClick6(e) {
   if (e.target === modal) {
     modal.style.display = 'none';
   }
-}  
+}
 
 // Events
 popUpBtn6.addEventListener('click', openModal6);

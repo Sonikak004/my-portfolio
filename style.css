@@ -40,7 +40,7 @@ body {
 }
 
 .modal-content {
-  margin:6%;
+  margin: 6%;
   width: 73%;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
   animation-name: modalopen;
@@ -141,7 +141,7 @@ body {
 .seelive-but {
   text-decoration-line: none;
   color: #fff;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -153,7 +153,7 @@ body {
 .seesrc-but {
   text-decoration-line: none;
   color: #fff;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -180,7 +180,8 @@ body {
 
 .modal-header {
   --modal-duration: 1s;
-  --modal-color: #ffffff;
+  --modal-color: #fff;
+
   background: var(--modal-color);
   padding-left: 21px;
   padding-top: 6px;
@@ -193,12 +194,12 @@ body {
   display: flex;
   width: 259px;
   height: 0;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   margin-bottom: -18px;
 }
 
@@ -215,7 +216,8 @@ body {
 .modal-footer {
   height: 70px;
   --modal-duration: 1s;
-  --modal-color: #ffffff;
+  --modal-color: #fff;
+
   background: var(--modal-color);
   padding: 15px;
   color: #fff;
@@ -660,7 +662,7 @@ button {
   top: -400px;
 }
 
-.pro-img3{
+.pro-img3 {
   position: relative;
   top: -333px;
 }
@@ -670,7 +672,7 @@ button {
   top: -595px;
 }
 
-.pro-img4 { 
+.pro-img4 {
   position: relative;
   top: -506px;
 }
@@ -706,12 +708,12 @@ button {
   left: 15px;
   width: 295px;
   height: 29px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .ptext2 {
@@ -720,12 +722,12 @@ button {
   left: 15px;
   width: 295px;
   height: 29px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .ptext3 {
@@ -734,12 +736,12 @@ button {
   left: 15px;
   width: 295px;
   height: 29px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .ptext4 {
@@ -748,12 +750,12 @@ button {
   left: 15px;
   width: 295px;
   height: 29px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .ptext5 {
@@ -762,12 +764,12 @@ button {
   left: 15px;
   width: 295px;
   height: 29px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .ptext6 {
@@ -776,12 +778,12 @@ button {
   left: 15px;
   width: 295px;
   height: 29px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .ptext-1 {
@@ -790,7 +792,7 @@ button {
   top: -32px;
   width: 295px;
   height: 89px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 16px;
@@ -804,7 +806,7 @@ button {
   top: -32px;
   width: 295px;
   height: 89px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 16px;
@@ -819,7 +821,7 @@ button {
   top: -32px;
   width: 295px;
   height: 89px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 16px;
@@ -833,7 +835,7 @@ button {
   top: -32px;
   width: 295px;
   height: 89px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 16px;
@@ -847,7 +849,7 @@ button {
   top: -32px;
   width: 295px;
   height: 89px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 16px;
@@ -861,7 +863,7 @@ button {
   top: -32px;
   width: 295px;
   height: 89px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 16px;

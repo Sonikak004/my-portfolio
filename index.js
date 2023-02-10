@@ -438,7 +438,7 @@ closePop2.addEventListener('click', closepopmodal);
 window.addEventListener('click', outsideClick);
 
 // Open
-function openModal() {
+function openModal2() {
   modal.style.display = 'block';
 }
 

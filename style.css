@@ -1899,7 +1899,8 @@ footer {
   }
 
   .modal {
-    left: 34px;
+    width: 106%;
+    left: 75px;
   }
 
   .pro-img2-desk {

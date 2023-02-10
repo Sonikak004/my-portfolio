@@ -420,7 +420,7 @@ function closepopmodal() {
 }
 
 // Close If Outside Click
-function outsideClick(e) {
+function outsideClick1(e) {
   if (e.target == modal) {
     modal.style.display = 'none';
   }

@@ -245,12 +245,13 @@ body {
 
 @keyframes modalopen {
 
-  from
-   {
+ from
+ {
     opacity: 0;
   }
-  to 
-  {
+
+ to 
+ {
     opacity: 1;
   }
 } 
@@ -1959,14 +1960,14 @@ footer {
   .pro-img6-desk {
     position: relative;
     top: -974px;
-    left: 700px;;
+    left: 700px;
     height: 371px;
     width: 317px;
     background-size: 100%;
     background-image: url(./images/card3.png);
   }
 
- .but1 {
+  .but1 {
     padding-left: 117px;
     top: 557px;
     left: 18px;

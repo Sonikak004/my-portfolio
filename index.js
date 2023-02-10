@@ -298,8 +298,7 @@ for (let i = 2; i <= 2; i += 1) {
 const projectSection4 = document.querySelector('#project-section');
 
 for (let i = 3; i <= 3; i += 1) {
-  const card = 
-  `<img
+  const card = `<img
   class="pro-img4"
   src= ${proCards[i].image}
   alt="project card four"
@@ -363,7 +362,7 @@ for (let i = 4; i <= 4; i += 1) {
 const projectSection6 = document.querySelector('#project-section');
 
 for (let i = 5; i <= 5; i += 1) {
-  const card =`<img
+  const card = `<img
   class="pro-img6"
   src= ${proCards[i].image}
   alt="project card six"
@@ -392,7 +391,6 @@ for (let i = 5; i <= 5; i += 1) {
 }
 
   // pop up for cards 1
-
 
 const popUpBtn = document.querySelector('#see-pro-pop');
 const closePop = document.querySelector('#popclose');
@@ -451,7 +449,6 @@ window.addEventListener('click', outsideClick2);
 
 //pop up for cards 3
 
-const modalPop3 = document.querySelector('#my-modal1');
 const popUpBtn3 = document.querySelector('#see-pro-pop3');
 const closePop3 = document.querySelector('#popclose');
 
@@ -479,7 +476,6 @@ window.addEventListener('click', outsideClick3);
 
 // pop up for cards 4
 
-const modalPop4 = document.querySelector('#my-modal1');
 const popUpBtn4 = document.querySelector('#see-pro-pop4');
 const closePop4 = document.querySelector('#popclose');
 
@@ -501,7 +497,7 @@ function outsideClick4(e) {
 }
 
 // Events
-popUpBtn4.addEventListener('click', openModal4);
+
 closePop4.addEventListener('click', closepopmodal4);
 window.addEventListener('click', outsideClick4);
 
@@ -533,9 +529,8 @@ popUpBtn5.addEventListener('click', openModal5);
 closePop5.addEventListener('click', closepopmodal5);
 window.addEventListener('click', outsideClick5);
 
-//pop up for cards 6
+// pop up for cards 6
 
-const modalPop6 = document.querySelector('#my-modal1');
 const popUpBtn6 = document.querySelector('#see-pro-pop6');
 const closePop6 = document.querySelector('#popclose');
 

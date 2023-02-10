@@ -197,7 +197,7 @@ window.addEventListener('click', outsideClick);
 
 const projectSection1 = document.querySelector('#project-section');
 
-for (let i = 1; i <= 1; i ++) {
+for (let i = 1; i <= 1; i += 1) {
   const card = `<img
   class="pro-img1"
   src= ${proCards[i].image}
@@ -231,8 +231,7 @@ for (let i = 1; i <= 1; i ++) {
 
 const projectSection2 = document.querySelector('#project-section');
 
-for ( let i = 1; i <= 1; i += 1){
-
+for (let i = 1; i <= 1; i += 1) {
   const card = `<img
   class="pro-img2"
   src= ${proCards[i].image}
@@ -266,7 +265,6 @@ for ( let i = 1; i <= 1; i += 1){
 const projectSection3 = document.querySelector('#project-section');
 
 for (let i = 2; i <= 2; i += 1) {
-
   const card = `<img
   class="pro-img3"
   src= ${proCards[i].image}
@@ -290,7 +288,7 @@ for (let i = 2; i <= 2; i += 1) {
   </li>
   </ul>
   <button id="see-pro-pop3" class="pop-up but3 butext but" type="button"> ${proCards[i].button[2]} </button>
-  </div>` ;
+  </div>`;
 
   projectSection3.innerHTML += card;
 }
@@ -300,7 +298,6 @@ for (let i = 2; i <= 2; i += 1) {
 const projectSection4 = document.querySelector('#project-section');
 
 for (let i = 3; i <= 3; i += 1) {
-
   const card = 
   `<img
   class="pro-img4"
@@ -323,7 +320,7 @@ for (let i = 3; i <= 3; i += 1) {
   </li>
   </ul>
   <button id="see-pro-pop4" class="pop-up but4 butext but" type="button"> ${proCards[i].button[2]} </button>
-  </div>` ;
+  </div>`;
 
   projectSection4.innerHTML += card;
 }
@@ -333,7 +330,6 @@ for (let i = 3; i <= 3; i += 1) {
 const projectSection5 = document.querySelector('#project-section');
 
 for (let i = 4; i <= 4; i += 1) {
-
   const card = `<img
   class="pro-img5"
   src= ${proCards[i].image}
@@ -366,8 +362,7 @@ for (let i = 4; i <= 4; i += 1) {
 
 const projectSection6 = document.querySelector('#project-section');
 
-for (let i = 5; i <= 5; i += 1){
-
+for (let i = 5; i <= 5; i += 1) {
   const card =`<img
   class="pro-img6"
   src= ${proCards[i].image}
@@ -396,7 +391,7 @@ for (let i = 5; i <= 5; i += 1){
   projectSection6.innerHTML += card;
 }
 
-  /////// pop up for cards 1
+  // pop up for cards 1
 
 
 const popUpBtn = document.querySelector('#see-pro-pop');
@@ -426,7 +421,7 @@ window.addEventListener('click', outsideClick1);
 
 
 
-/////// pop up for cards 2
+// pop up for cards 2
 
 const modalPop2 = document.querySelector('#my-modal1');
 const popUpBtn2 = document.querySelector('#see-pro-pop2');
@@ -454,7 +449,7 @@ popUpBtn2.addEventListener('click', openModal2);
 closePop2.addEventListener('click', closepopmodal2);
 window.addEventListener('click', outsideClick2);
 
-//////pop up for cards 3
+//pop up for cards 3
 
 const modalPop3 = document.querySelector('#my-modal1');
 const popUpBtn3 = document.querySelector('#see-pro-pop3');
@@ -482,7 +477,7 @@ popUpBtn3.addEventListener('click', openModal3);
 closePop3.addEventListener('click', closepopmodal3);
 window.addEventListener('click', outsideClick3);
 
-/////// pop up for cards 4
+// pop up for cards 4
 
 const modalPop4 = document.querySelector('#my-modal1');
 const popUpBtn4 = document.querySelector('#see-pro-pop4');
@@ -510,7 +505,7 @@ popUpBtn4.addEventListener('click', openModal4);
 closePop4.addEventListener('click', closepopmodal4);
 window.addEventListener('click', outsideClick4);
 
-/////// pop up for cards 5
+// pop up for cards 5
 
 const modalPop5 = document.querySelector('#my-modal1');
 const popUpBtn5 = document.querySelector('#see-pro-pop5');
@@ -538,7 +533,7 @@ popUpBtn5.addEventListener('click', openModal5);
 closePop5.addEventListener('click', closepopmodal5);
 window.addEventListener('click', outsideClick5);
 
-////////pop up for cards 6
+//pop up for cards 6
 
 const modalPop6 = document.querySelector('#my-modal1');
 const popUpBtn6 = document.querySelector('#see-pro-pop6');

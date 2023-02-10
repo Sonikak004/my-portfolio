@@ -273,7 +273,7 @@ body {
 
 .heading {
   position: relative;
-  top: -194px;
+  top: -89px;
   align-items: center;
   margin-left: 15px;
   width: 375px;
@@ -1715,18 +1715,6 @@ footer {
   }
 
   .tech-button1 {
-    display: block;
-  }
-
-  .card1 {
-    display: none;
-  }
-
-  .card2 {
-    display: none;
-  }
-
-  .card3 {
     display: none;
   }
 

@@ -182,7 +182,12 @@ body {
 }
 
 .link-button2 {
+  margin-left: 6px;
   width: 142px;
+}
+
+.link-button1 {
+  margin-left: -8px;
 }
 
 .btn-icon2 {
@@ -241,11 +246,9 @@ body {
 
 .close {
   float: right;
-  top: 16px;
-  left: -14px;
+  top: -11px;
+  left: -7px;
   position: relative;
-  font-size: 30px;
-  color: #fff;
 }
 
 .close:hover,

@@ -1071,6 +1071,7 @@ button {
 }
 
 .about-heading-skills {
+  display: flex;
   height: 33px;
   font-family: "Inter", sans-serif;
   justify-content: center;
@@ -1087,6 +1088,7 @@ button {
 
 .about-head-text-1 {
   height: 56px;
+  display: flex;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;

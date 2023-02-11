@@ -1087,6 +1087,7 @@ button {
 /* skills text */
 
 .about-head-text-1 {
+  display: flex;
   height: 56px;
   display: flex;
   font-family: "Inter", sans-serif;
@@ -2216,7 +2217,7 @@ footer {
   .footer-bottom {
     width: 96%;
     display: block;
-    margin-left: 2px;
+    margin-left: 141px;
     margin-top: -296px;
   }
 

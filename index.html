@@ -27,7 +27,7 @@
     </div>
 
     <div class="topnav-bar">
-      <header class="heading">
+      <header class="heading dflex">
 
         <a href="#" class="heading-text">Sonika Kumar</a>
         <div>
@@ -64,9 +64,10 @@
             don't hestiate to contact me.</p>
         </div>
         <!-- social-media Icons -->
-        <div class="social-div">
+        
+        <div class="social-div" id="popup">
 
-          <ul class="social-media">
+          <ul class="social-media dflex">
 
             <li>
               <a class="social-icons sitop1" href="http://github.com/sonikak004">
@@ -128,7 +129,7 @@
             </div>
             <!-- languages cards  -->
 
-            <ul class="languages">
+            <ul class="languages dflex">
               <li class="item1">css</li>
               <li class="item2">html</li>
               <li class="item3">bootsrap</li>
@@ -137,137 +138,19 @@
 
             <!-- recent work submit button -->
 
-            <button class="btn" type="button">
+            <button id="project-button" class="btn pop-up" type="button">
               <a class="button-text">See Project</a>
             </button>
           </div>
         </div>
+        <div id="my-modal" class="modal"> </div>
+      </section>
 
         <!-- professional art cards section -->
-
-        <section class="professional-art">
-          <div class="pro-div">
-            <!-- First professional skill card -->
-
-            <div id="pro-images-1" class="professional-art-text">
-              <h2 class="professional-text pro-text"> Profesional Art Printing Data </h2>
-              <p class="pro-para-text pro-text">A daily selection of privately personalized reads; no accounts or
-                sign-ups required. has been the industry's standard</p>
-              <!-- skill button in professional sectiion -->
-              <ul>
-                <li class="card1 car1">html</li>
-                <li class="card2 car1">bootsrap</li>
-                <li class="card3 car1">Ruby</li>
-              </ul>
-
-              <button class="button2" type="button">
-                <a class="button-text2" href="#"> See Project </a>
-              </button>
-            </div>
-
-
-            <!-- second professional skill card -->
-
-            <div id="pro-images-2" class="professional-art-text">
-              <h2 class="professional-text"> Profesional Art Printing Data </h2>
-              <h2 class="pro-desktop">Data Dashboard Healthcare</h2>
-              <p class="pro-para-text">A daily selection of privately personalized reads; no accounts or sign-ups
-                required. has been the industry's standard</p>
-              <!-- skill button in professional sectiion -->
-              <ul>
-                <li class="card1">html</li>
-                <li class="card2">bootsrap</li>
-                <li class="card3">Ruby</li>
-              </ul>
-
-              <button class="button2 buttontwo" type="button">
-                <a class="button-text2" href="#"> See Project </a>
-              </button>
-            </div>
-
-
-            <!-- third professional skill card -->
-
-            <div id="pro-images-3" class="professional-art-text">
-              <h2 class="professional-text"> Profesional Art Printing Data </h2>
-              <h2 class="pro-desktop">Website Portfolio</h2>
-              <p class="pro-para-text">A daily selection of privately personalized reads; no accounts or sign-ups
-                required. has been the industry's standard</p>
-              <!-- skill button in professional sectiion -->
-              <ul>
-                <li class="card1">html</li>
-                <li class="card2">bootsrap</li>
-                <li class="card3">Ruby</li>
-              </ul>
-
-              <button class="button2 buttontwo" type="button">
-                <a class="button-text2" href="#"> See Project </a>
-              </button>
-            </div>
-
-
-            <!-- fourth professional skill card -->
-
-            <div id="pro-images-4" class="professional-art-text">
-              <h2 class="professional-text-4"> Profesional Art Printing Data </h2>
-              <!-- <h2 class="professional-text">Data Dashboard Healthcare</h2> -->
-              <p class="pro-para-text">A daily selection of privately personalized reads; no accounts or sign-ups
-                required. has been the industry's standard</p>
-              <!-- skill button in professional sectiion -->
-              <ul>
-                <li class="card1">html</li>
-                <li class="card2">bootsrap</li>
-                <li class="card3">Ruby</li>
-              </ul>
-
-              <button class="button2 buttontwo" type="button">
-                <a class="button-text2" href="#"> See Project </a>
-              </button>
-            </div>
-
-
-            <!-- fifth professional skill card -->
-
-            <div id="pro-images-5" class="professional-art-text">
-              <h2 class="professional-text"> Profesional Art Printing Data </h2>
-              <h2 class="pro-desktop">Data Dashboard Healthcare</h2>
-              <p class="pro-para-text">A daily selection of privately personalized reads; no accounts or sign-ups
-                required. has been the industry's standard</p>
-              <!-- skill button in professional sectiion -->
-              <ul>
-                <li class="card1">html</li>
-                <li class="card2">bootsrap</li>
-                <li class="card3">Ruby</li>
-              </ul>
-
-              <button class="button2 buttontwo" type="button">
-                <a class="button-text2" href="#"> See Project </a>
-              </button>
-            </div>
-
-
-            <!-- sixth professional skill card -->
-
-            <div id="pro-images-6" class="professional-art-text">
-              <h2 class="professional-text"> Profesional Art Printing Data </h2>
-              <h2 class="pro-desktop">Website Portfolio</h2>
-              <p class="pro-para-text">A daily selection of privately personalized reads; no accounts or sign-ups
-                required. has been the industry's standard</p>
-              <!-- skill buttons in professional sectiion -->
-              <ul>
-                <li class="card1">html</li>
-                <li class="card2">bootsrap</li>
-                <li class="card3">Ruby</li>
-              </ul>
-
-              <button class="button2 buttontwo" type="button">
-                <a class="button-text2" href="#"> See Project </a>
-              </button>
-            </div>
-          </div>
-
-        </section>
-      </section>
+        <div class="project-cards">
+         <section class="professional-art" id="project-section">
+        </section> 
+     </div>
 
       <!-- about me section -->
 
@@ -288,17 +171,17 @@
         <!-- languages skill -->
         <ul class="about-me-section">
 
-          <li class="about-heading-skills abt-head1"> <img src="./images/diamond.png" alt="diamond logo"
+          <li class="about-heading-skills dflex abt-head1"> <img src="./images/diamond.png" alt="diamond logo"
               class="diamond-img">
             Languages
           </li>
 
           <ul class="about-me-skills1">
 
-            <li class="about-head-text-1">Javascript</li>
-            <li class="about-head-text-2">Ruby</li>
-            <li class="about-head-text-3">Html</li>
-            <li class="about-head-text-4">Css</li>
+            <li class="about-head-text-1 dflex">Javascript</li>
+            <li class="about-head-text-2 dflex">Ruby</li>
+            <li class="about-head-text-3 dflex">Html</li>
+            <li class="about-head-text-4 dflex">Css</li>
 
             <br> <br>
           </ul>
@@ -308,11 +191,11 @@
             Framework
           </li>
           <ul class="about-me-skills2">
-            <li class="about-head-text-1 skill-1">Bootstrap</li>
-            <li class="about-head-text-2 skill-2">Ruby on Rails</li>
-            <li class="about-head-text-3 skill-3">RSPec</li>
-            <li class="about-head-text-4 skill-4">CapyBara</li>
-            <li class="about-head-text-5 skill-5">Selenium</li>
+            <li class="about-head-text-1 skill-1 dflex">Bootstrap</li>
+            <li class="about-head-text-2 skill-2 dflex">Ruby on Rails</li>
+            <li class="about-head-text-3 skill-3 dflex">RSPec</li>
+            <li class="about-head-text-4 skill-4 dflex">CapyBara</li>
+            <li class="about-head-text-5 skill-5 dflex">Selenium</li>
 
             <br> <br>
           </ul>
@@ -323,10 +206,10 @@
           </li>
           <ul class="about-me-skills3">
             <li class="about-head-text-1">Codekit</li>
-            <li class="about-head-text-2 skill3-1">Github </li>
-            <li class="about-head-text-3 skill3-2">Codepen</li>
-            <li class="about-head-text-4 skill3-1">Gitlab </li>
-            <li class="about-head-text-5 skill3-5">Terminal </li>
+            <li class="about-head-text-2 skill3-1 dflex">Github </li>
+            <li class="about-head-text-3 skill3-2 dflex">Codepen</li>
+            <li class="about-head-text-4 skill3-1 dflex">Gitlab </li>
+            <li class="about-head-text-5 skill3-5 dflex">Terminal </li>
           </ul>
         </ul>
         <footer class="footer-bottom">
@@ -396,8 +279,7 @@
       </section>
 
   </div>
-  <script src="index.js">
+  <script src="index.js"></script>
   </script>
 </body>
-
 </html>

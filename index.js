@@ -499,7 +499,7 @@ window.addEventListener('click', outsideClick6);
 
 // Form Validation for E-mail
 
-const form = document.getElementsByTagName('forme');
+const form = document.getElementsByTagName('form');
 const email = document.getElementById('email-text');
 const submitButton = document.getElementById('submit-form');
 function emailValidate() {
@@ -507,7 +507,7 @@ function emailValidate() {
   const isNotValid = !emailExp.test(email.value);
   if (isNotValid) {
     submitButton.setCustomValidity(
-      `Error! You should only use lowercase in the email field..!\nLike: ${email.value.toLowerCase()}`,
+      `You should only use lowercase in the email field..!\nLike: ${email.value.toLowerCase()}`,
     );
   } else submitButton.setCustomValidity('');
 }

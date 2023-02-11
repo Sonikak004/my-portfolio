@@ -108,37 +108,6 @@ const proCards = [
   },
 ];
 
-const popCards = [
-  {
-    id: 0,
-    name: 'Keeping track of hundreds  of components website',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: './images/probackground.png',
-    button: ['see live', 'see source', 'see project'],
-    technologies: ['html', 'css', 'Bootstrap', 'Ruby'],
-    liveLink: 'https://sonikak004.github.io/',
-    sourceLink: 'https://github.com/Sonikak004/my-portfolio',
-  },
-  {
-    id: 1,
-    heading: 'Keeping track of hundreds  of components website',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    image: './images/probackground.png',
-    button: ['see live', 'see source', 'see project'],
-    technologies: ['html', 'Bootstrap', 'Ruby on Rails'],
-    link: '#',
-  },
-  {
-    id: 2,
-    heading: 'Profesional Art Printing Data',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    image: './images/probackground.png',
-    button: ['see live', 'see source', 'see project'],
-    technologies: ['html', 'Bootstrap', 'Ruby on Rails'],
-    link: '#',
-  },
-];
-
 // popup
 
 const popupVar = document.querySelector('#my-modal');
@@ -208,11 +177,6 @@ const modal = document.querySelector('#my-modal');
 const modalBtn = document.querySelector('#project-button');
 
 console.log("closeBtn", closeBtn)
-
-// Open
-function openModal() {
-  modal.style.display = 'block';
-}
 
 // Close
 function closeModal() {
@@ -434,17 +398,10 @@ for (let i = 5; i <= 5; i += 1) {
 // pop up for cards 1
 
 const popUpBtn = document.querySelector('#see-pro-pop');
-const closePop = document.querySelector('#popclose');
 
 // Open
-function openModal1() {
-  modal.style.display = 'block';
-}
 
 // Close
-function closepopmodal() {
-  modal.style.display = 'none';
-}
 
 // Close If Outside Click
 function outsideClick1(e) {
@@ -461,17 +418,8 @@ window.addEventListener('click', outsideClick1);
 // pop up for cards 2
 
 const popUpBtn2 = document.querySelector('#see-pro-pop2');
-const closePop2 = document.querySelector('#popclose');
 
 // Open
-function openModal2() {
-  modal.style.display = 'block';
-}
-
-// Close
-function closepopmodal2() {
-  modal.style.display = 'none';
-}
 
 // Close If Outside Click
 function outsideClick2(e) {
@@ -488,17 +436,6 @@ window.addEventListener('click', outsideClick2);
 // pop up for cards 3
 
 const popUpBtn3 = document.querySelector('#see-pro-pop3');
-const closePop3 = document.querySelector('#popclose');
-
-// Open
-function openModal3() {
-  modal.style.display = 'block';
-}
-
-// Close
-function closepopmodal3() {
-  modal.style.display = 'none';
-}
 
 // Close If Outside Click
 function outsideClick3(e) {
@@ -515,18 +452,6 @@ window.addEventListener('click', outsideClick3);
 // pop up for cards 4
 
 const popUpBtn4 = document.querySelector('#see-pro-pop4');
-const closePop4 = document.querySelector('#popclose');
-
-// Open
-
-function openModal4() {
-  modal.style.display = 'block';
-}
-
-// Close
-function closepopmodal4() {
-  modal.style.display = 'none';
-}
 
 // Close If Outside Click
 function outsideClick4(e) {
@@ -543,17 +468,6 @@ window.addEventListener('click', outsideClick4);
 // pop up for cards 5
 
 const popUpBtn5 = document.querySelector('#see-pro-pop5');
-const closePop5 = document.querySelector('#popclose');
-
-// Open
-function openModal5() {
-  modal.style.display = 'block';
-}
-
-// Close
-function closepopmodal5() {
-  modal.style.display = 'none';
-}
 
 // Close If Outside Click
 function outsideClick5(e) {
@@ -570,17 +484,6 @@ window.addEventListener('click', outsideClick5);
 // pop up for cards 6
 
 const popUpBtn6 = document.querySelector('#see-pro-pop6');
-const closePop6 = document.querySelector('#popclose');
-
-// Open
-function openModal6() {
-  modal.style.display = 'block';
-}
-
-// Close
-function closepopmodal6() {
-  modal.style.display = 'none';
-}
 
 // Close If Outside Click
 function outsideClick6(e) {

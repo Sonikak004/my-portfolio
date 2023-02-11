@@ -154,7 +154,7 @@ body {
 .seelive-but {
   text-decoration-line: none;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -166,7 +166,7 @@ body {
 .seesrc-but {
   text-decoration-line: none;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -206,7 +206,7 @@ body {
 .modal-head-text {
   width: 259px;
   height: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -331,7 +331,7 @@ ul {
 }
 
 .mobile-div li a {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -711,7 +711,7 @@ button {
 .text-style {
   width: 295px;
   height: 29px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -719,7 +719,12 @@ button {
   color: #fff;
 }
 
-.ptext1, .ptext2, .ptext3, .ptext4, .ptext5, .ptext6 {
+.ptext1,
+.ptext2,
+.ptext3,
+.ptext4,
+.ptext5,
+.ptext6 {
   position: relative;
   top: -80px;
   left: 15px;
@@ -731,7 +736,7 @@ button {
   top: -32px;
   width: 295px;
   height: 89px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 16px;
@@ -745,7 +750,7 @@ button {
   top: -32px;
   width: 295px;
   height: 89px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 16px;
@@ -803,7 +808,7 @@ button {
 
 .butext {
   padding-left: 110px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -1316,7 +1321,6 @@ footer {
 /* Desktop Version */
 
 @media only screen and (min-width: 768px) {
-
   html {
     width: 100%;
   }
@@ -1355,7 +1359,7 @@ footer {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
-    font-family: 'inter', sans-serif;
+    font-family: "inter", sans-serif;
     position: relative;
   }
 
@@ -1365,7 +1369,7 @@ footer {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
-    font-family: 'inter', sans-serif;
+    font-family: "inter", sans-serif;
     position: relative;
   }
 
@@ -1375,14 +1379,14 @@ footer {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
-    font-family: 'inter', sans-serif;
+    font-family: "inter", sans-serif;
     position: relative;
   }
 
   .heading-text {
     margin-left: 136px;
     font-size: 20px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   #navigation-bar {
@@ -1422,7 +1426,7 @@ footer {
     display: flex;
     width: 746px;
     height: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;

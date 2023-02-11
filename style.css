@@ -9,6 +9,10 @@ html {
   height: 100%;
 }
 
+.dflex {
+  display: flex;
+}
+
 .wrapper {
   width: 338px;
   display: flex;
@@ -127,12 +131,10 @@ body {
 .pop-window {
   width: 100%;
   top: 50px;
-  display: flex;
   position: relative;
 }
 
 .pop-text {
-  display: flex;
   top: 47px;
   color: #344563;
   position: relative;
@@ -143,7 +145,6 @@ body {
 }
 
 .pop-btn {
-  display: flex;
   justify-content: space-between;
   width: 100%;
   top: -9px;
@@ -203,7 +204,6 @@ body {
 }
 
 .modal-head-text {
-  display: flex;
   width: 259px;
   height: 0;
   font-family: 'Roboto', sans-serif;
@@ -272,13 +272,12 @@ body {
 /* top heading for main page */
 
 .heading {
-  position: relative;
-  top: -194px;
+  position: absolute;
+  top: 8px;
+  left: 10px;
   align-items: center;
-  margin-left: 15px;
   width: 375px;
   height: 92px;
-  display: flex;
   justify-content: space-between;
   background: #3c3a39;
 }
@@ -423,7 +422,6 @@ ul {
 /* social media icons */
 
 .social-media {
-  display: flex;
   flex-direction: row;
   align-items: center;
   margin-top: -5px;
@@ -510,7 +508,6 @@ ul {
 /* languages cards */
 
 .languages {
-  display: flex;
   align-items: center;
   padding: 10px 12px;
   border: #091e42;
@@ -585,7 +582,7 @@ button {
   align-items: center;
   padding: 12px;
   gap: 10px;
-  width: 124px;
+  width: 153px;
   margin-top: 27px;
   height: 48px;
   border: none;
@@ -656,10 +653,6 @@ button {
   align-content: space-evenly;
 }
 
-.pro-img1 {
-  display: flex;
-}
-
 .pro1 {
   position: relative;
   top: -246px;
@@ -715,88 +708,21 @@ button {
   top: -1078px;
 }
 
-.ptext1 {
+.text-style {
+  width: 295px;
+  height: 29px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.ptext1, .ptext2, .ptext3, .ptext4, .ptext5, .ptext6 {
   position: relative;
   top: -80px;
   left: 15px;
-  width: 295px;
-  height: 29px;
-  font-family: 'Crete Round', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-}
-
-.ptext2 {
-  position: relative;
-  top: -90px;
-  left: 15px;
-  width: 295px;
-  height: 29px;
-  font-family: 'Crete Round', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-}
-
-.ptext3 {
-  position: relative;
-  top: -90px;
-  left: 15px;
-  width: 295px;
-  height: 29px;
-  font-family: 'Crete Round', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-}
-
-.ptext4 {
-  position: relative;
-  top: -80px;
-  left: 15px;
-  width: 295px;
-  height: 29px;
-  font-family: 'Crete Round', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-}
-
-.ptext5 {
-  position: relative;
-  top: -80px;
-  left: 15px;
-  width: 295px;
-  height: 29px;
-  font-family: 'Crete Round', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-}
-
-.ptext6 {
-  position: relative;
-  top: -80px;
-  left: 15px;
-  width: 295px;
-  height: 29px;
-  font-family: 'Crete Round', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
 }
 
 .ptext-1 {
@@ -814,62 +740,6 @@ button {
 }
 
 .ptext-2 {
-  position: relative;
-  left: 16px;
-  top: -32px;
-  width: 295px;
-  height: 89px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 100;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fffbfb;
-}
-
-.ptext-3 {
-  position: relative;
-  left: 16px;
-  top: -32px;
-  width: 295px;
-  height: 89px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 100;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fffbfb;
-}
-
-.ptext-4 {
-  position: relative;
-  left: 16px;
-  top: -32px;
-  width: 295px;
-  height: 89px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 100;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fffbfb;
-}
-
-.ptext-5 {
-  position: relative;
-  left: 16px;
-  top: -32px;
-  width: 295px;
-  height: 89px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 100;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fffbfb;
-}
-
-.ptext-6 {
   position: relative;
   left: 16px;
   top: -32px;
@@ -942,7 +812,6 @@ button {
 }
 
 .but1 {
-  display: flex;
   flex-direction: row;
   align-items: center;
   position: relative;
@@ -992,7 +861,6 @@ button {
 }
 
 .but2 {
-  display: flex;
   flex-direction: row;
   align-items: center;
   position: relative;
@@ -1009,7 +877,6 @@ button {
 }
 
 .but3 {
-  display: flex;
   flex-direction: row;
   align-items: center;
   position: relative;
@@ -1026,7 +893,6 @@ button {
 }
 
 .but4 {
-  display: flex;
   flex-direction: row;
   align-items: center;
   position: relative;
@@ -1043,7 +909,6 @@ button {
 }
 
 .but5 {
-  display: flex;
   flex-direction: row;
   align-items: center;
   position: relative;
@@ -1060,7 +925,6 @@ button {
 }
 
 .but6 {
-  display: flex;
   flex-direction: row;
   align-items: center;
   position: relative;
@@ -1207,7 +1071,6 @@ button {
   margin-left: 25px;
   font-size: 32px;
   line-height: 44px;
-  display: flex;
   align-items: center;
   color: #fff;
 }
@@ -1222,7 +1085,6 @@ button {
   font-size: 22px;
   line-height: 129px;
   margin-left: -22px;
-  display: flex;
   color: #fff;
   gap: 12px;
   justify-content: space-around;
@@ -1236,7 +1098,6 @@ button {
   font-size: 22px;
   line-height: 129px;
   margin-left: -22px;
-  display: flex;
   color: #fff;
   gap: 12px;
   align-content: center;
@@ -1251,7 +1112,6 @@ button {
   font-size: 22px;
   line-height: 129px;
   margin-left: -22px;
-  display: flex;
   color: #fff;
   gap: 12px;
   align-content: center;
@@ -1266,7 +1126,6 @@ button {
   font-size: 22px;
   line-height: 129px;
   margin-left: -22px;
-  display: flex;
   color: #fff;
   gap: 12px;
   align-content: center;
@@ -1281,7 +1140,6 @@ button {
   font-size: 22px;
   line-height: 129px;
   margin-left: -22px;
-  display: flex;
   color: #fff;
   gap: 12px;
   align-content: center;
@@ -1458,6 +1316,7 @@ footer {
 /* Desktop Version */
 
 @media only screen and (min-width: 768px) {
+
   html {
     width: 100%;
   }
@@ -1714,10 +1573,6 @@ footer {
     width: 100%;
   }
 
-  .tech-button1 {
-    display: none;
-  }
-
   .recent-work-para {
     font-weight: 400;
     font-size: 20px;
@@ -1728,6 +1583,10 @@ footer {
 
   .recent-works-div {
     width: 100%;
+  }
+
+  #tech-desk {
+    display: none;
   }
 
   .recent-div {
@@ -1741,6 +1600,7 @@ footer {
   }
 
   button {
+    width: 145px;
     margin: 6px;
     margin-top: 15px;
   }
@@ -1897,8 +1757,8 @@ footer {
     color: #344563;
     position: relative;
     left: 681px;
-    width: 40%;
-    top: -451px;
+    width: 28%;
+    top: -455px;
   }
 
   .pro-img1-desk {
